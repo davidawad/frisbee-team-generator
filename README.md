@@ -32,10 +32,16 @@ The input data should be an array of such player objects.
 Clone the repository:
 
 ```
-$ git clone https://github.com/davidawad/frisbee-team-generator.git
-$ cd frisbee-team-generator
-$ yarn install
-$ yarn test
+git clone https://github.com/davidawad/frisbee-team-generator.git
+```
+```
+cd frisbee-team-generator
+```
+```
+yarn install
+```
+```
+yarn test
 ```
 
 
