@@ -17,9 +17,13 @@ Each player is represented as an object with the following structure:
 ```
 
 **Name:** The name of the player.
+
 **Thrower:** A numeric score representing the player's throwing skill.
+
 **Runner:** A numeric score representing the player's running skill.
+
 **Score:** A numeric score representing the player's overall skill.
+
 **Present:** A boolean indicating whether the player is present and should be considered for team generation.
 
 The input data should be an array of such player objects.
