@@ -1,3 +1,9 @@
+# Editors
+.embold
+.vscode
+
+
+
 # Logs
 logs
 *.log

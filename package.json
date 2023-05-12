@@ -1,0 +1,28 @@
+{
+  "name": "frisbee-team-generator",
+  "version": "1.0.0",
+  "description": "A Node.js application to generate frisbee teams.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidawad/frisbee-team-generator.git"
+  },
+  "keywords": [
+    "frisbee",
+    "team",
+    "generator"
+  ],
+  "author": "David Awad, Thomas Bastawrous, Kerolos Nashed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidawad/frisbee-team-generator/issues"
+  },
+  "homepage": "https://github.com/davidawad/frisbee-team-generator",
+  "devDependencies": {
+    "jest": "^27.2.4"
+  }
+}
+
