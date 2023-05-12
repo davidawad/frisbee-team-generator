@@ -69,6 +69,20 @@ module.exports = {
       Runner: 7,
       Score: 8,
       Present: true
+    },
+    {
+      Name: "Player11",
+      Thrower: 9,
+      Runner: 7,
+      Score: 8,
+      Present: false
+    },
+    {
+      Name: "Player12",
+      Thrower: 9,
+      Runner: 7,
+      Score: 8,
+      Present: false
     }
   ]
 };

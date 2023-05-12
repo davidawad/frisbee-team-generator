@@ -12,9 +12,7 @@ describe("Team Generation", () => {
   test("should split players into two teams", () => {
     const result = generateTeams(sampleData);
 
-    expect(result.team1.length + result.team2.length).toBe(
-      sampleData.data.length
-    );
+    expect(result.team1.length + result.team2.length).toBe(10);
   });
 
   test("both teams should have a similar number of players", () => {
@@ -61,5 +59,21 @@ describe("Team Generation", () => {
 
     expect(Math.abs(team1Throwers - team2Throwers)).toBeLessThanOrEqual(5); // adjust the tolerance level as needed
     expect(Math.abs(team1Runners - team2Runners)).toBeLessThanOrEqual(5); // adjust the tolerance level as needed
+  });
+
+  test("only uses present players", () => {
+    const { team1, team2 } = generateTeams(sampleData);
+
+    // Check if all players in team 1 are present
+    const allTeam1PlayersPresent = team1.every(
+      (player) => player.Present === true
+    );
+    expect(allTeam1PlayersPresent).toBe(true);
+
+    // Check if all players in team 2 are present
+    const allTeam2PlayersPresent = team2.every(
+      (player) => player.Present === true
+    );
+    expect(allTeam2PlayersPresent).toBe(true);
   });
 });
